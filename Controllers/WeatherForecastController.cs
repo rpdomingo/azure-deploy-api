@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace azure_deploy.Controllers;
 
-//test
+//test asda
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
