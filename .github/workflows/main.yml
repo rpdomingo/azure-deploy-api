@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'azure-deploy-firstapi'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_5762bc78f447479983cee803ef684ec6 }}
-          package: .
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: ./publish
